@@ -6,7 +6,7 @@ import { Header } from "./ui/Header";
 export const metadata: Metadata = {
   title: "MalleyMedia Motorsport",
   description:
-    "Formula 1, IndyCar, and junior category storytelling, highlights, and short-form content by MalleyMedia Motorsport."
+    "Formula 1, IndyCar and junior single seater news, highlights and media coverage from MalleyMedia Motorsport."
 };
 
 export default function RootLayout({

@@ -1,56 +1,109 @@
 export const navItems = [
   { href: "/", label: "Home" },
+  { href: "/news", label: "News" },
   { href: "/about", label: "About" },
-  { href: "/portfolio", label: "Portfolio" },
+  { href: "/media-credentials", label: "Media Credentials" },
   { href: "/contact", label: "Contact" }
 ];
 
-export const focusAreas = ["Formula 1", "IndyCar", "Junior categories", "Motorsport storytelling", "Highlights", "Short-form content"];
+export const contactEmail = "contact@malleymediamotorsport.com";
+
+export const socialLinks = [
+  { label: "Instagram", href: "https://www.instagram.com/" },
+  { label: "YouTube", href: "https://www.youtube.com/" },
+  { label: "Email", href: `mailto:${contactEmail}` }
+];
+
+export const focusAreas = [
+  "Formula 1",
+  "IndyCar",
+  "Formula 2",
+  "Formula 3",
+  "British F4",
+  "GB3",
+  "GB4"
+];
 
 export const profilePoints = [
-  "Independent motorsport content creator",
-  "Formula 1, IndyCar, and junior category coverage",
-  "Instagram and YouTube focused output",
-  "Professional conduct for media accreditation",
-  "Clear crediting and rights-aware publishing",
-  "Simple, direct communication"
+  "Independent motorsport media outlet",
+  "Formula 1, IndyCar and junior single seater coverage",
+  "Pathway focus from F4 and GB4 through to F1 and IndyCar",
+  "News, highlights, photography and social-first media content",
+  "Professional conduct around teams, circuits and championships",
+  "Clear contact point for accreditation and media enquiries"
+];
+
+export const featuredStories = [
+  {
+    title: "Following the single seater ladder",
+    category: "Pathway",
+    summary:
+      "Coverage shaped around the route from British F4, GB4 and GB3 through Formula 3, Formula 2 and the top levels of motorsport."
+  },
+  {
+    title: "Race weekend media notes",
+    category: "Trackside",
+    summary:
+      "Clean, concise updates designed for fans, teams and media managers who need credible coverage without unnecessary noise."
+  },
+  {
+    title: "Short-form highlights",
+    category: "Video",
+    summary:
+      "Social-ready motorsport edits and highlights prepared for Instagram and YouTube with a professional editorial tone."
+  }
+];
+
+export const latestNews = [
+  {
+    title: "Junior formulae remain central to MalleyMedia Motorsport coverage",
+    category: "Junior Formulae",
+    date: "Coverage Focus",
+    summary:
+      "Formula 2, Formula 3, British F4, GB3 and GB4 sit at the heart of the outlet's pathway coverage."
+  },
+  {
+    title: "IndyCar and Formula 1 coverage aligned around the wider racing story",
+    category: "F1 / IndyCar",
+    date: "Editorial",
+    summary:
+      "The site presents a simple home for news, highlights and media content across elite single seater racing."
+  },
+  {
+    title: "Media credentials page created for teams, circuits and championships",
+    category: "Accreditation",
+    date: "Media",
+    summary:
+      "A dedicated page now explains the outlet's output, contact route and portfolio space for future examples."
+  }
 ];
 
 export const portfolioItems = [
   {
-    title: "Race Weekend Coverage",
-    category: "Trackside",
-    summary:
-      "Photo-led posts, short updates, and concise written notes from Formula 1, IndyCar, and junior category events."
+    title: "News Coverage",
+    category: "Editorial",
+    summary: "Written updates and news-led summaries across Formula 1, IndyCar and junior single seater racing."
   },
   {
-    title: "Video Highlights",
-    category: "YouTube",
-    summary:
-      "Clean video edits for YouTube, from race-weekend highlights to paddock-style features and creator-led event coverage."
+    title: "Highlights",
+    category: "Video",
+    summary: "Short-form edits, recaps and YouTube content designed for modern motorsport audiences."
   },
   {
-    title: "Social Photography",
-    category: "Instagram",
-    summary:
-      "Modern image selections prepared for Instagram, with captions that keep the tone informed, respectful, and readable."
+    title: "Trackside Media",
+    category: "Event Coverage",
+    summary: "Photography, social posts and race-weekend observations suitable for teams and championships."
   },
   {
-    title: "Creator Portfolio",
+    title: "Future Portfolio",
     category: "Accreditation",
-    summary:
-      "A straightforward record of motorsport work, useful for media officers reviewing future accreditation requests."
+    summary: "A reserved space for examples, links and proof of work as event coverage develops."
   }
 ];
 
 export const stats = [
-  { value: "Photo", label: "Trackside imagery" },
-  { value: "Video", label: "YouTube edits" },
-  { value: "Social", label: "Instagram posts" },
-  { value: "Media", label: "Accreditation-ready profile" }
-];
-
-export const socialLinks = [
-  { label: "Instagram", href: "https://www.instagram.com/" },
-  { label: "YouTube", href: "https://www.youtube.com/" }
+  { value: "F1", label: "Formula 1 coverage" },
+  { value: "IndyCar", label: "US single seater focus" },
+  { value: "F2/F3", label: "International pathway" },
+  { value: "F4-GB4", label: "Junior categories" }
 ];
