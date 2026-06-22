@@ -25,7 +25,7 @@ export function Header() {
             <span className="mt-1 block text-xs font-semibold uppercase tracking-[0.32em] text-red-300">Motorsport</span>
           </span>
         </Link>
-        <div className="hidden items-center gap-1 lg:flex">
+        <div className="hidden items-center gap-1 xl:flex">
           {navItems.map((item) => {
             const active = pathname === item.href;
             return (
@@ -48,7 +48,7 @@ export function Header() {
           Contact
         </Link>
       </nav>
-      <div className="section-shell flex gap-2 overflow-x-auto pb-3 lg:hidden">
+      <div className="section-shell flex gap-2 overflow-x-auto pb-3 xl:hidden">
         {navItems.map((item) => (
           <Link
             key={item.href}

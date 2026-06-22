@@ -2,10 +2,10 @@ import { CTA } from "../ui/CTA";
 import { PageHero } from "../ui/PageHero";
 
 const values = [
-  "Independent creator-led coverage with a focus on motorsport photography, video, and social storytelling.",
-  "Professional behaviour around circuits, paddocks, media areas, and event staff.",
-  "Respect for event rules, image rights, credits, and the expectations of media accreditation.",
-  "A clean public profile that helps media officers understand the work quickly."
+  "Independent motorsport media coverage across Formula 1, IndyCar and junior single seater racing.",
+  "Pathway coverage that connects British F4, GB4, GB3, Formula 3 and Formula 2 with the top levels of the sport.",
+  "Professional behaviour around circuits, paddocks, media areas, teams and event staff.",
+  "A clean public profile that helps championships and media officers understand the outlet quickly."
 ];
 
 export default function AboutPage() {
@@ -13,15 +13,15 @@ export default function AboutPage() {
     <main>
       <PageHero
         eyebrow="About"
-        title="An independent creator covering motorsport with care."
-        text="MalleyMedia Motorsport is a personal media project covering Formula 1, IndyCar, and junior categories through storytelling, highlights, and short-form content."
+        title="An independent motorsport media outlet."
+        text="MalleyMedia Motorsport covers Formula 1, IndyCar and junior single seater racing through news, highlights and media content."
       />
       <section className="py-20">
         <div className="section-shell grid gap-12 lg:grid-cols-[0.9fr_1.1fr]">
           <div className="accent-rule pt-8">
-            <h2 className="text-4xl font-black uppercase text-white">Simple, serious, and built around the racing.</h2>
+            <h2 className="text-4xl font-black uppercase text-white">Covering the pathway from junior categories to the top level.</h2>
             <p className="mt-5 text-base leading-7 text-zinc-400">
-              This site gives MalleyMedia Motorsport a clear professional base: who I am, what I make, where to find the work, and why the project is suitable for future media accreditation review.
+              The outlet follows the racing ladder from British F4, GB4 and GB3 through Formula 3 and Formula 2, while also covering Formula 1 and IndyCar. The aim is to make the wider single seater pathway easy to follow for fans, teams and championships.
             </p>
           </div>
           <div className="grid gap-4">
@@ -35,11 +35,11 @@ export default function AboutPage() {
       </section>
       <section className="border-y hairline bg-white/[0.025] py-16">
         <div className="section-shell grid gap-8 md:grid-cols-3">
-          {["Photography", "Video", "Social"].map((item) => (
+          {["Formula 1", "IndyCar", "Junior Formulae"].map((item) => (
             <div key={item} className="border border-white/12 p-6">
               <p className="text-xs font-black uppercase tracking-[0.22em] text-red-300">{item}</p>
               <p className="mt-4 text-sm leading-6 text-zinc-400">
-                Motorsport content made for a public audience, with a modern presentation suitable for event and media-team review.
+                Clear coverage for a public audience, presented in a way that remains credible for teams, championships and media managers.
               </p>
             </div>
           ))}
