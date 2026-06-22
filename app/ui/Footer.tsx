@@ -57,6 +57,9 @@ export function Footer() {
           <p>Copyright 2026 MalleyMedia Motorsport. All rights reserved.</p>
           <p>Formula 1, IndyCar and junior formulae coverage.</p>
         </div>
+        <p className="section-shell mt-4 text-[11px] font-medium uppercase tracking-[0.18em] text-zinc-600">
+          Website updated via GitHub integration test
+        </p>
       </div>
     </footer>
   );
