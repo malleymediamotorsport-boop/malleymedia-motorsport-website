@@ -3,36 +3,47 @@
 import { useState, type FormEvent } from "react";
 import { contactEmail } from "../data";
 
-const enquiryLabels: Record<string, string> = {
-  general: "General message",
-  media: "Media accreditation",
-  event: "Event enquiry",
-  collab: "Creator collaboration"
-};
-
 export function ContactForm() {
-  const [emailOpened, setEmailOpened] = useState(false);
+  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
+  const [errorMessage, setErrorMessage] = useState("");
 
-  function handleSubmit(event: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
-    const formData = new FormData(event.currentTarget);
-    const name = String(formData.get("name") ?? "");
-    const email = String(formData.get("email") ?? "");
-    const enquiryType = String(formData.get("enquiryType") ?? "general");
-    const message = String(formData.get("message") ?? "");
-    const enquiryLabel = enquiryLabels[enquiryType] ?? "General message";
+    const form = event.currentTarget;
+    const formData = new FormData(form);
+    setStatus("sending");
+    setErrorMessage("");
 
-    const subject = `Website enquiry: ${enquiryLabel}`;
-    const body = [`Name: ${name}`, `Email: ${email}`, `Enquiry type: ${enquiryLabel}`, "", message].join("\n");
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(Object.fromEntries(formData))
+      });
+      const result = await response.json();
 
-    setEmailOpened(true);
-    window.location.href = `mailto:${contactEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      if (!response.ok) {
+        throw new Error(result.error || "The message could not be sent.");
+      }
+
+      form.reset();
+      setStatus("sent");
+    } catch (error) {
+      setErrorMessage(error instanceof Error ? error.message : "The message could not be sent.");
+      setStatus("error");
+    }
   }
 
   return (
     <form className="media-card grid gap-4 p-6 sm:p-8" onSubmit={handleSubmit}>
       <p className="text-sm font-black uppercase tracking-[0.22em] text-red-300">Enquiry Form</p>
+      <div className="hidden" aria-hidden="true">
+        <label>
+          Website
+          <input name="website" tabIndex={-1} autoComplete="off" />
+        </label>
+      </div>
       <label className="grid gap-2">
         <span className="text-xs font-black uppercase tracking-[0.18em] text-zinc-300">Name</span>
         <input
@@ -76,12 +87,17 @@ export function ContactForm() {
           required
         />
       </label>
-      <button className="bg-red-500 px-5 py-3 text-sm font-black uppercase tracking-[0.16em] text-white transition hover:bg-red-400" type="submit">
-        Send Message
+      <button
+        className="bg-red-500 px-5 py-3 text-sm font-black uppercase tracking-[0.16em] text-white transition hover:bg-red-400 disabled:cursor-wait disabled:opacity-70"
+        type="submit"
+        disabled={status === "sending"}
+      >
+        {status === "sending" ? "Sending..." : "Send Message"}
       </button>
       <p className="text-xs leading-5 text-zinc-400" aria-live="polite">
-        {emailOpened ? "Your email app should open with the message prepared. " : "This opens your email app with the message prepared. "}
-        If it does not open, email{" "}
+        {status === "sent" && <span className="font-semibold text-green-300">Message sent successfully. </span>}
+        {status === "error" && <span className="font-semibold text-red-300">{errorMessage} </span>}
+        Your message will be sent directly to MalleyMedia Motorsport. You can also email{" "}
         <a className="font-semibold text-red-200 hover:text-white" href={`mailto:${contactEmail}`}>
           {contactEmail}
         </a>
