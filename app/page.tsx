@@ -15,7 +15,8 @@ export default function Home() {
             <Image src="/images/malleymedia-logo-square.png" alt="MalleyMedia Motorsport logo" width={150} height={150} className="mb-8 h-28 w-28 border border-white/15 object-cover sm:h-36 sm:w-36" />
             <p className="text-sm font-black uppercase tracking-[0.3em] text-red-300">Independent Motorsport Media</p>
             <h1 className="mt-6 text-balance text-4xl font-black uppercase leading-[0.9] text-white sm:text-7xl lg:text-8xl">
-              MalleyMedia Motorsport
+              <span className="inline-block text-[1.12em] leading-none">M</span>alley
+              <span className="inline-block text-[1.12em] leading-none">M</span>edia Motorsport
             </h1>
             <p className="mt-7 max-w-2xl text-lg leading-8 text-zinc-200">
               Formula 1, IndyCar and Junior Formulae Coverage
