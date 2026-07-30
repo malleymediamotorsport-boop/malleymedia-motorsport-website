@@ -21,7 +21,10 @@ export function Header() {
             className="h-12 w-12 border border-white/15 object-cover"
           />
           <span className="leading-none">
-            <span className="block text-base font-black uppercase tracking-[0.16em] text-white">MalleyMedia</span>
+            <span className="block text-base font-black uppercase tracking-[0.16em] text-white">
+              <span className="inline-block text-[1.12em] leading-none">M</span>alley
+              <span className="inline-block text-[1.12em] leading-none">M</span>edia
+            </span>
             <span className="mt-1 block text-xs font-semibold uppercase tracking-[0.32em] text-red-300">Motorsport</span>
           </span>
         </Link>
