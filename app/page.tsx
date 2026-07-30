@@ -36,11 +36,10 @@ export default function Home() {
       </section>
 
       <section className="border-b hairline py-8">
-        <div className="section-shell grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="section-shell grid gap-3 sm:grid-cols-3">
           {stats.map((item) => (
-            <div key={item.label} className="border border-white/12 bg-white/[0.03] p-5">
-              <p className="text-3xl font-black text-white">{item.value}</p>
-              <p className="mt-2 text-sm uppercase tracking-[0.12em] text-zinc-400">{item.label}</p>
+            <div key={item} className="border border-white/12 bg-white/[0.03] p-5">
+              <p className="text-3xl font-black text-white">{item}</p>
             </div>
           ))}
         </div>

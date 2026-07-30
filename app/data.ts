@@ -102,8 +102,7 @@ export const portfolioItems = [
 ];
 
 export const stats = [
-  { value: "F1", label: "Formula 1 coverage" },
-  { value: "IndyCar", label: "US single seater focus" },
-  { value: "F2/F3", label: "International pathway" },
-  { value: "F4-GB4", label: "Junior categories" }
+  "Formula 1",
+  "IndyCar",
+  "Junior Series"
 ];
