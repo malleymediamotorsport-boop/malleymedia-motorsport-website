@@ -35,8 +35,10 @@ export function Header() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`px-3 py-2 text-sm font-semibold transition ${
-                  active ? "bg-white text-black" : "text-zinc-300 hover:bg-white/10 hover:text-white"
+                className={`border-b-2 px-3 py-2 text-sm font-semibold transition ${
+                  active
+                    ? "border-red-400 text-white"
+                    : "border-transparent text-zinc-300 hover:border-white/30 hover:text-white"
                 }`}
               >
                 {item.label}
@@ -56,8 +58,10 @@ export function Header() {
           <Link
             key={item.href}
             href={item.href}
-            className={`shrink-0 border px-3 py-2 text-xs font-bold uppercase tracking-[0.12em] ${
-              pathname === item.href ? "border-white bg-white text-black" : "border-white/12 text-zinc-300"
+            className={`shrink-0 border-b-2 px-3 py-2 text-xs font-bold uppercase tracking-[0.12em] ${
+              pathname === item.href
+                ? "border-red-400 text-white"
+                : "border-transparent text-zinc-300"
             }`}
           >
             {item.label}
