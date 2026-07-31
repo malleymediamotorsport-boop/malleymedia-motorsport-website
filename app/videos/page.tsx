@@ -26,6 +26,19 @@ export default function VideosPage() {
                 <h2 className="mt-2 text-lg font-black uppercase text-white">Schumacher — Great Britain 1998</h2>
               </div>
             </article>
+            <article className="media-card mx-auto w-full max-w-[380px] overflow-hidden">
+              <iframe
+                className="aspect-[9/16] w-full bg-black"
+                src="https://www.youtube.com/embed/w90t9twRca0"
+                title="MalleyMedia Motorsport YouTube Short"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              />
+              <div className="p-4">
+                <p className="text-xs font-black uppercase tracking-[0.22em] text-red-500">YouTube Short</p>
+                <h2 className="mt-2 text-lg font-black uppercase text-white">MalleyMedia Motorsport</h2>
+              </div>
+            </article>
           </div>
         </div>
       </section>
