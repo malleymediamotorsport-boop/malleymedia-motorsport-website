@@ -28,7 +28,7 @@ export function Footer() {
           <p className="text-sm font-bold uppercase tracking-[0.18em] text-white">Pages</p>
           <div className="mt-4 grid gap-2">
             {navItems.map((item) => (
-              <Link key={item.href} href={item.href} className="text-sm text-zinc-400 transition hover:text-white">
+              <Link key={item.href} href={item.href} target={item.href.startsWith("http") ? "_blank" : undefined} rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined} className="text-sm text-zinc-400 transition hover:text-white">
                 {item.label}
               </Link>
             ))}
@@ -38,7 +38,7 @@ export function Footer() {
           <p className="text-sm font-bold uppercase tracking-[0.18em] text-white">Social</p>
           <div className="mt-4 flex flex-wrap gap-2">
             {socialLinks.map((item) => (
-              <Link key={item.label} href={item.href} className="border border-white/12 px-2.5 py-1 text-xs text-zinc-400 transition hover:border-red-300 hover:text-white">
+              <Link key={item.label} href={item.href} target={item.href.startsWith("http") ? "_blank" : undefined} rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined} className="border border-white/12 px-2.5 py-1 text-xs text-zinc-400 transition hover:border-red-300 hover:text-white">
                 {item.label}
               </Link>
             ))}

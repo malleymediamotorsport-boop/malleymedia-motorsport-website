@@ -25,7 +25,7 @@ export default function ContactPage() {
             </p>
             <div className="mt-8 grid gap-3">
               {contacts.map((item) => (
-                <a key={item.label} href={item.href} className="border border-white/12 bg-white/[0.03] p-4 transition hover:border-red-300/60 hover:bg-red-500/10">
+                <a key={item.label} href={item.href} target={item.href.startsWith("http") ? "_blank" : undefined} rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined} className="border border-white/12 bg-white/[0.03] p-4 transition hover:border-red-300/60 hover:bg-red-500/10">
                   <p className="text-xs font-black uppercase tracking-[0.22em] text-red-500">{item.label}</p>
                   <p className="mt-2 text-sm font-semibold text-white">{item.value}</p>
                 </a>
@@ -33,7 +33,7 @@ export default function ContactPage() {
             </div>
             <div className="mt-5 flex flex-wrap gap-3">
               {socialLinks.map((item) => (
-                <a key={item.label} href={item.href} className="border border-red-300/50 bg-red-500/10 px-4 py-3 text-sm font-bold uppercase tracking-[0.12em] text-white transition hover:bg-red-500">
+                <a key={item.label} href={item.href} target={item.href.startsWith("http") ? "_blank" : undefined} rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined} className="border border-red-300/50 bg-red-500/10 px-4 py-3 text-sm font-bold uppercase tracking-[0.12em] text-white transition hover:bg-red-500">
                   {item.label}
                 </a>
               ))}
