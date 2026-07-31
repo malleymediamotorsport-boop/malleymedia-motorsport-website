@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { contactEmail, featuredStories, focusAreas, latestNews, profilePoints, socialLinks, stats } from "./data";
+import { contactEmail, featuredStories, focusAreas, profilePoints, socialLinks, stats } from "./data";
 import { CTA } from "./ui/CTA";
 
 export default function Home() {
@@ -22,12 +22,9 @@ export default function Home() {
               Formula 1, Indycar and Junior series
             </p>
             <p className="mt-4 max-w-2xl text-base leading-7 text-zinc-400">
-              News, highlights and media content following the pathway from junior single seaters to the highest levels of motorsport.
+              Highlights and media content following the pathway from junior single seaters to the highest levels of motorsport.
             </p>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-              <Link href="/news" className="bg-red-500 px-5 py-3 text-center text-sm font-black uppercase tracking-[0.16em] text-white transition hover:bg-red-400">
-                Read News
-              </Link>
               <Link href="/media-credentials" className="border border-white/25 px-5 py-3 text-center text-sm font-black uppercase tracking-[0.16em] text-white transition hover:bg-white hover:text-black">
                 Media Credentials
               </Link>
@@ -83,27 +80,6 @@ export default function Home() {
                 </div>
               ))}
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-16">
-        <div className="section-shell grid gap-10 lg:grid-cols-[1fr_1.2fr]">
-          <div>
-            <p className="text-sm font-black uppercase tracking-[0.25em] text-red-500">Latest News</p>
-            <h2 className="mt-4 text-3xl font-black uppercase text-white">A simple structure for future articles.</h2>
-          </div>
-          <div className="grid gap-4">
-            {latestNews.map((item) => (
-              <article key={item.title} className="border-b border-white/12 pb-5">
-                <div className="flex flex-wrap gap-3 text-xs font-black uppercase tracking-[0.16em] text-red-500">
-                  <span>{item.category}</span>
-                  <span className="text-zinc-500">{item.date}</span>
-                </div>
-                <h3 className="mt-3 text-xl font-black uppercase text-white">{item.title}</h3>
-                <p className="mt-2 text-sm leading-6 text-zinc-400">{item.summary}</p>
-              </article>
-            ))}
           </div>
         </div>
       </section>

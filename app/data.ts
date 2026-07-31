@@ -1,6 +1,5 @@
 export const navItems = [
   { href: "/", label: "Home" },
-  { href: "/news", label: "News" },
   { href: "/about", label: "About" },
   { href: "/media-credentials", label: "Media Credentials" },
   { href: "/contact", label: "Contact" }
@@ -28,7 +27,7 @@ export const profilePoints = [
   "Independent motorsport media outlet",
   "Formula 1, IndyCar and junior single seater coverage",
   "Pathway focus from F4 and GB4 through to F1 and IndyCar",
-  "News, highlights, photography and social-first media content",
+  "Highlights, photography and social-first media content",
   "Professional conduct around teams, circuits and championships",
   "Clear contact point for accreditation and media enquiries"
 ];
@@ -54,35 +53,11 @@ export const featuredStories = [
   }
 ];
 
-export const latestNews = [
-  {
-    title: "Junior formulae remain central to MalleyMedia Motorsport coverage",
-    category: "Junior Formulae",
-    date: "Coverage Focus",
-    summary:
-      "Formula 2, Formula 3, British F4, GB3 and GB4 sit at the heart of the outlet's pathway coverage."
-  },
-  {
-    title: "IndyCar and Formula 1 coverage aligned around the wider racing story",
-    category: "F1 / IndyCar",
-    date: "Editorial",
-    summary:
-      "The site presents a simple home for news, highlights and media content across elite single seater racing."
-  },
-  {
-    title: "Media credentials page created for teams, circuits and championships",
-    category: "Accreditation",
-    date: "Media",
-    summary:
-      "A dedicated page now explains the outlet's output, contact route and portfolio space for future examples."
-  }
-];
-
 export const portfolioItems = [
   {
-    title: "News Coverage",
+    title: "Editorial Coverage",
     category: "Editorial",
-    summary: "Written updates and news-led summaries across Formula 1, IndyCar and junior single seater racing."
+    summary: "Written updates and editorial summaries across Formula 1, IndyCar and junior single seater racing."
   },
   {
     title: "Highlights",
