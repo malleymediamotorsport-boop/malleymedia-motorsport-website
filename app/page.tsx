@@ -67,7 +67,7 @@ export default function Home() {
               "Press and media support"
             ].map((service) => (
               <div key={service} className="media-card flex min-h-28 items-center gap-4 p-5">
-                <span className="h-3 w-3 shrink-0 bg-red-500" />
+                <span aria-hidden="true" className="shrink-0 text-xl font-black text-red-500">–</span>
                 <p className="font-bold text-zinc-100">{service}</p>
               </div>
             ))}
