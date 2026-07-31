@@ -43,6 +43,36 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="border-b hairline bg-white/[0.025] py-20">
+        <div className="section-shell grid gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
+          <div className="accent-rule pt-8">
+            <p className="text-sm font-black uppercase tracking-[0.25em] text-red-500">Work With MalleyMedia</p>
+            <h2 className="mt-4 text-4xl font-black uppercase text-white">Motorsport media for teams, drivers and race weekends.</h2>
+            <p className="mt-5 text-base leading-7 text-zinc-400">
+              Creating motorsport coverage and social media content for Formula 1, IndyCar and junior series, with the goal of working directly with teams and drivers at the track.
+            </p>
+            <Link href="/contact" className="mt-8 inline-block bg-red-500 px-5 py-3 text-sm font-black uppercase tracking-[0.16em] text-white transition hover:bg-red-600">
+              Discuss a Collaboration
+            </Link>
+          </div>
+          <div className="grid gap-4 sm:grid-cols-2">
+            {[
+              "Race-weekend photography and video",
+              "Social media content",
+              "Driver interviews and features",
+              "Behind-the-scenes coverage",
+              "Short-form highlights and reels",
+              "Press and media support"
+            ].map((service) => (
+              <div key={service} className="media-card flex min-h-28 items-center gap-4 p-5">
+                <span className="h-3 w-3 shrink-0 bg-red-500" />
+                <p className="font-bold text-zinc-100">{service}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="py-20">
         <div className="section-shell grid gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
           <div className="accent-rule pt-8">
