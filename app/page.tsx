@@ -107,7 +107,7 @@ export default function Home() {
             <div className="mt-7 grid gap-3 sm:grid-cols-2">
               {profilePoints.map((item) => (
                 <div key={item} className="flex items-center gap-3 border border-white/12 bg-black/20 p-3">
-                  <span className="h-2.5 w-2.5 shrink-0 bg-red-400" />
+                  <span aria-hidden="true" className="shrink-0 text-xl font-black text-red-500">–</span>
                   <span className="text-sm font-semibold text-zinc-200">{item}</span>
                 </div>
               ))}
