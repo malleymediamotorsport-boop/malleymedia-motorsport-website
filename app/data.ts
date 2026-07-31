@@ -8,7 +8,7 @@ export const navItems = [
 export const contactEmail = "contact@malleymediamotorsport.com";
 
 export const socialLinks = [
-  { label: "Instagram", href: "https://www.instagram.com/" },
+  { label: "Instagram", href: "https://www.instagram.com/malleymedia.motorsport/" },
   { label: "YouTube", href: "https://www.youtube.com/" },
   { label: "Email", href: `mailto:${contactEmail}` }
 ];
