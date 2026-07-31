@@ -19,7 +19,7 @@ export default function Home() {
               <span className="inline-block text-[1.12em] leading-none">M</span>edia Motorsport
             </h1>
             <p className="mt-7 max-w-2xl text-lg leading-8 text-zinc-200">
-              Formula 1, IndyCar and Junior Formulae Coverage
+              Formula 1, Indycar and Junior series
             </p>
             <p className="mt-4 max-w-2xl text-base leading-7 text-zinc-400">
               News, highlights and media content following the pathway from junior single seaters to the highest levels of motorsport.
