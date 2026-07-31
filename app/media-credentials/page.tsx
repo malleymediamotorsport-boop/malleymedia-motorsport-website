@@ -4,7 +4,7 @@ import { PageHero } from "../ui/PageHero";
 
 const credentialPoints = [
   "Motorsport news, highlights and media content for public-facing channels.",
-  "Coverage across Formula 1, IndyCar and junior single seater championships.",
+  "Formula 1, IndyCar and junior series coverage.",
   "A professional contact route for accreditation, event access and media enquiries.",
   "A portfolio area prepared for future examples, links and published coverage."
 ];

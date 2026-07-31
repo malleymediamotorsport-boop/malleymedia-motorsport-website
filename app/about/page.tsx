@@ -2,7 +2,7 @@ import { CTA } from "../ui/CTA";
 import { PageHero } from "../ui/PageHero";
 
 const values = [
-  "Independent motorsport media coverage across Formula 1, IndyCar and junior single seater racing.",
+  "Formula 1, IndyCar and junior series coverage.",
   "Pathway coverage that connects British F4, GB4, GB3, Formula 3 and Formula 2 with the top levels of the sport.",
   "Professional behaviour around circuits, paddocks, media areas, teams and event staff.",
   "A clean public profile that helps championships and media officers understand the outlet quickly."
@@ -14,7 +14,7 @@ export default function AboutPage() {
       <PageHero
         eyebrow="About"
         title="An independent motorsport media outlet."
-        text="MalleyMedia Motorsport covers Formula 1, IndyCar and junior single seater racing through news, highlights and media content."
+        text="Formula 1, IndyCar and junior series coverage."
       />
       <section className="py-20">
         <div className="section-shell grid gap-12 lg:grid-cols-[0.9fr_1.1fr]">
@@ -35,7 +35,7 @@ export default function AboutPage() {
       </section>
       <section className="border-y hairline bg-white/[0.025] py-16">
         <div className="section-shell grid gap-8 md:grid-cols-3">
-          {["Formula 1", "IndyCar", "Junior Formulae"].map((item) => (
+          {["Formula 1", "IndyCar", "Junior Series"].map((item) => (
             <div key={item} className="border border-white/12 p-6">
               <p className="text-xs font-black uppercase tracking-[0.22em] text-red-500">{item}</p>
               <p className="mt-4 text-sm leading-6 text-zinc-400">

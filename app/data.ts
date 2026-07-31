@@ -25,7 +25,7 @@ export const focusAreas = [
 
 export const profilePoints = [
   "Independent motorsport media outlet",
-  "Formula 1, IndyCar and junior single seater coverage",
+  "Formula 1, IndyCar and junior series coverage",
   "Pathway focus from F4 and GB4 through to F1 and IndyCar",
   "Highlights, photography and social-first media content",
   "Professional conduct around teams, circuits and championships",
@@ -57,7 +57,7 @@ export const portfolioItems = [
   {
     title: "Editorial Coverage",
     category: "Editorial",
-    summary: "Written updates and editorial summaries across Formula 1, IndyCar and junior single seater racing."
+    summary: "Written updates and editorial summaries across Formula 1, IndyCar and junior series."
   },
   {
     title: "Highlights",

@@ -21,7 +21,7 @@ export default function Home() {
               <span className="block">Motorsport</span>
             </h1>
             <p className="mt-7 max-w-2xl text-lg leading-8 text-zinc-200">
-              Formula 1, Indycar and Junior series
+              Formula 1, IndyCar and junior series coverage.
             </p>
             <p className="mt-4 max-w-2xl text-base leading-7 text-zinc-400">
               Highlights and media content following the pathway from junior single seaters to the highest levels of motorsport.

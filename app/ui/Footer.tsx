@@ -18,7 +18,7 @@ export function Footer() {
             <p className="text-sm font-black uppercase tracking-[0.28em] text-red-500">MalleyMedia Motorsport</p>
           </div>
           <p className="mt-4 max-w-xl text-sm leading-6 text-zinc-400">
-            Independent motorsport media covering Formula 1, IndyCar and the pathway from junior categories to the highest levels of racing.
+            Formula 1, IndyCar and junior series coverage.
           </p>
           <a className="mt-4 inline-flex text-sm font-semibold text-red-200 transition hover:text-white" href={`mailto:${contactEmail}`}>
             {contactEmail}
@@ -48,7 +48,7 @@ export function Footer() {
       <div className="border-t hairline py-5">
         <div className="section-shell flex flex-col gap-2 text-xs text-zinc-500 sm:flex-row sm:items-center sm:justify-between">
           <p>Copyright 2026 MalleyMedia Motorsport. All rights reserved.</p>
-          <p>Formula 1, IndyCar and junior formulae coverage.</p>
+          <p>Formula 1, IndyCar and junior series coverage.</p>
         </div>
       </div>
     </footer>
