@@ -1,9 +1,9 @@
 export const navItems = [
   { href: "/", label: "Home" },
-  { href: "/videos", label: "Videos" },
   { href: "/about", label: "About" },
   { href: "/media-credentials", label: "Media Credentials" },
-  { href: "/contact", label: "Contact" }
+  { href: "/contact", label: "Contact" },
+  { href: "/videos", label: "Videos" }
 ];
 
 export const contactEmail = "contact@malleymediamotorsport.com";
