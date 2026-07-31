@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { contactEmail, featuredStories, focusAreas, profilePoints, socialLinks, stats } from "./data";
+import { contactEmail, featuredStories, profilePoints, socialLinks, stats } from "./data";
 import { CTA } from "./ui/CTA";
 
 export default function Home() {
@@ -131,11 +131,6 @@ export default function Home() {
               <Link key={item.label} href={item.href} target={item.href.startsWith("http") ? "_blank" : undefined} rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined} className="border border-red-300/50 bg-red-500/10 px-4 py-3 text-sm font-bold uppercase tracking-[0.12em] text-white transition hover:bg-red-500">
                 {item.label}
               </Link>
-            ))}
-            {focusAreas.map((area) => (
-              <span key={area} className="border border-white/14 bg-white/[0.04] px-4 py-3 text-sm font-bold uppercase tracking-[0.12em] text-zinc-200">
-                {area}
-              </span>
             ))}
           </div>
         </div>
