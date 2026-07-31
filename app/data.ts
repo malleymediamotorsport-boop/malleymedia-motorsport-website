@@ -9,7 +9,7 @@ export const contactEmail = "contact@malleymediamotorsport.com";
 
 export const socialLinks = [
   { label: "Instagram", href: "https://www.instagram.com/malleymedia.motorsport/" },
-  { label: "YouTube", href: "https://www.youtube.com/" },
+  { label: "YouTube", href: "https://www.youtube.com/@MalleyMediaMotorsport" },
   { label: "Email", href: `mailto:${contactEmail}` }
 ];
 

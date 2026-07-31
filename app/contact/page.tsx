@@ -5,7 +5,7 @@ import { ContactForm } from "./ContactForm";
 const contacts = [
   { label: "Email", value: contactEmail, href: `mailto:${contactEmail}` },
   { label: "Instagram", value: "Latest updates and race-weekend media", href: "https://www.instagram.com/malleymedia.motorsport/" },
-  { label: "YouTube", value: "Highlights, recaps and video coverage", href: "https://www.youtube.com/" }
+  { label: "YouTube", value: "Highlights, recaps and video coverage", href: "https://www.youtube.com/@MalleyMediaMotorsport" }
 ];
 
 export default function ContactPage() {
