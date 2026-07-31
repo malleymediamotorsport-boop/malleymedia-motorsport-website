@@ -14,9 +14,11 @@ export default function Home() {
           <div className="max-w-4xl">
             <Image src="/images/malleymedia-logo-square.png" alt="MalleyMedia Motorsport logo" width={150} height={150} className="mb-8 h-28 w-28 border border-white/15 object-cover sm:h-36 sm:w-36" />
             <p className="text-sm font-black uppercase tracking-[0.3em] text-red-500">Independent Motorsport Media</p>
-            <h1 className="mt-6 text-balance text-4xl font-black uppercase leading-[0.9] text-white sm:text-7xl lg:text-8xl">
-              <span className="inline-block text-[1.12em] leading-none">M</span>alley
-              <span className="inline-block text-[1.12em] leading-none">M</span>edia Motorsport
+            <h1 className="mt-6 text-3xl font-black uppercase leading-[0.9] text-white min-[360px]:text-4xl sm:text-7xl lg:text-8xl">
+              <span className="block whitespace-nowrap">
+                <span className="inline-block text-[1.12em] leading-none">M</span>alley<span className="inline-block text-[1.12em] leading-none">M</span>edia
+              </span>
+              <span className="block">Motorsport</span>
             </h1>
             <p className="mt-7 max-w-2xl text-lg leading-8 text-zinc-200">
               Formula 1, Indycar and Junior series
