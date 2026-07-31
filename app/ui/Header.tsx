@@ -25,7 +25,7 @@ export function Header() {
               <span className="inline-block text-[1.12em] leading-none">M</span>alley
               <span className="inline-block text-[1.12em] leading-none">M</span>edia
             </span>
-            <span className="mt-1 block text-xs font-semibold uppercase tracking-[0.32em] text-red-300">Motorsport</span>
+            <span className="mt-1 block text-xs font-semibold uppercase tracking-[0.32em] text-red-500">Motorsport</span>
           </span>
         </Link>
         <div className="hidden items-center gap-1 xl:flex">
