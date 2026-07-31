@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { contactEmail, focusAreas, navItems, socialLinks } from "../data";
+import { contactEmail, navItems, socialLinks } from "../data";
 
 export function Footer() {
   return (
@@ -41,13 +41,6 @@ export function Footer() {
               <Link key={item.label} href={item.href} target={item.href.startsWith("http") ? "_blank" : undefined} rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined} className="border border-white/12 px-2.5 py-1 text-xs text-zinc-400 transition hover:border-red-300 hover:text-white">
                 {item.label}
               </Link>
-            ))}
-          </div>
-          <div className="mt-4 flex flex-wrap gap-2">
-            {focusAreas.slice(0, 3).map((area) => (
-              <span key={area} className="border border-white/12 px-2.5 py-1 text-xs text-zinc-500">
-                {area}
-              </span>
             ))}
           </div>
         </div>
