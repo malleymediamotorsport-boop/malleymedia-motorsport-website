@@ -15,7 +15,7 @@ export function Footer() {
               height={48}
               className="h-12 w-12 border border-white/15 object-cover"
             />
-            <p className="text-sm font-black uppercase tracking-[0.28em] text-red-300">MalleyMedia Motorsport</p>
+            <p className="text-sm font-black uppercase tracking-[0.28em] text-red-500">MalleyMedia Motorsport</p>
           </div>
           <p className="mt-4 max-w-xl text-sm leading-6 text-zinc-400">
             Independent motorsport media covering Formula 1, IndyCar and the pathway from junior categories to the highest levels of racing.

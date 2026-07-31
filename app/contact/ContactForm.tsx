@@ -37,7 +37,7 @@ export function ContactForm() {
 
   return (
     <form className="media-card grid gap-4 p-6 sm:p-8" onSubmit={handleSubmit}>
-      <p className="text-sm font-black uppercase tracking-[0.22em] text-red-300">Enquiry Form</p>
+      <p className="text-sm font-black uppercase tracking-[0.22em] text-red-500">Enquiry Form</p>
       <div className="hidden" aria-hidden="true">
         <label>
           Website
@@ -96,7 +96,7 @@ export function ContactForm() {
       </button>
       <p className="text-xs leading-5 text-zinc-400" aria-live="polite">
         {status === "sent" && <span className="font-semibold text-green-300">Message sent successfully. </span>}
-        {status === "error" && <span className="font-semibold text-red-300">{errorMessage} </span>}
+        {status === "error" && <span className="font-semibold text-red-500">{errorMessage} </span>}
         Your message will be sent directly to MalleyMedia Motorsport. You can also email{" "}
         <a className="font-semibold text-red-200 hover:text-white" href={`mailto:${contactEmail}`}>
           {contactEmail}

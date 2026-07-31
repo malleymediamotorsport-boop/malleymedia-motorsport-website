@@ -44,7 +44,7 @@ export default function MediaCredentialsPage() {
 
       <section className="border-y hairline bg-white/[0.025] py-16">
         <div className="section-shell">
-          <p className="text-sm font-black uppercase tracking-[0.25em] text-red-300">Portfolio</p>
+          <p className="text-sm font-black uppercase tracking-[0.25em] text-red-500">Portfolio</p>
           <h2 className="mt-4 max-w-3xl text-4xl font-black uppercase text-white">Future content examples and published work.</h2>
           <p className="mt-5 max-w-3xl text-sm leading-6 text-zinc-400">
             This section is prepared for future race-weekend coverage, published articles, video links and social examples as MalleyMedia Motorsport develops its event portfolio.
@@ -52,7 +52,7 @@ export default function MediaCredentialsPage() {
           <div className="mt-8 grid gap-4 md:grid-cols-2">
             {portfolioItems.map((item) => (
               <article key={item.title} className="media-card p-6">
-                <p className="text-xs font-black uppercase tracking-[0.22em] text-red-300">{item.category}</p>
+                <p className="text-xs font-black uppercase tracking-[0.22em] text-red-500">{item.category}</p>
                 <h3 className="mt-4 text-2xl font-black uppercase text-white">{item.title}</h3>
                 <p className="mt-4 text-sm leading-6 text-zinc-400">{item.summary}</p>
               </article>
@@ -63,7 +63,7 @@ export default function MediaCredentialsPage() {
 
       <section className="py-16">
         <div className="section-shell media-card p-6 sm:p-8">
-          <p className="text-sm font-black uppercase tracking-[0.25em] text-red-300">Contact Details</p>
+          <p className="text-sm font-black uppercase tracking-[0.25em] text-red-500">Contact Details</p>
           <h2 className="mt-4 text-3xl font-black uppercase text-white">Media and accreditation enquiries</h2>
           <p className="mt-4 text-base leading-7 text-zinc-300">
             Email{" "}

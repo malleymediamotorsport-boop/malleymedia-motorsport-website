@@ -26,7 +26,7 @@ export default function ContactPage() {
             <div className="mt-8 grid gap-3">
               {contacts.map((item) => (
                 <a key={item.label} href={item.href} className="border border-white/12 bg-white/[0.03] p-4 transition hover:border-red-300/60 hover:bg-red-500/10">
-                  <p className="text-xs font-black uppercase tracking-[0.22em] text-red-300">{item.label}</p>
+                  <p className="text-xs font-black uppercase tracking-[0.22em] text-red-500">{item.label}</p>
                   <p className="mt-2 text-sm font-semibold text-white">{item.value}</p>
                 </a>
               ))}

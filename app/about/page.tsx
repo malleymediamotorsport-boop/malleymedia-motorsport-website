@@ -37,7 +37,7 @@ export default function AboutPage() {
         <div className="section-shell grid gap-8 md:grid-cols-3">
           {["Formula 1", "IndyCar", "Junior Formulae"].map((item) => (
             <div key={item} className="border border-white/12 p-6">
-              <p className="text-xs font-black uppercase tracking-[0.22em] text-red-300">{item}</p>
+              <p className="text-xs font-black uppercase tracking-[0.22em] text-red-500">{item}</p>
               <p className="mt-4 text-sm leading-6 text-zinc-400">
                 Clear coverage for a public audience, presented in a way that remains credible for teams, championships and media managers.
               </p>
