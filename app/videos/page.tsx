@@ -1,4 +1,27 @@
 export default function VideosPage() {
+  const videos = [
+    {
+      src: "/videos/mark-webber-crash-valencia-2010.mp4",
+      label: "Mark Webber crash — Valencia 2010",
+      title: "Mark Webber Crash — Valencia 2010"
+    },
+    {
+      src: "/videos/jerez-1997.mp4",
+      label: "Jerez 1997",
+      title: "Jerez 1997"
+    },
+    {
+      src: "/videos/canada-2019.mp4",
+      label: "Canada 2019",
+      title: "Canada 2019"
+    },
+    {
+      src: "/videos/schumacher-great-britain-1998.mp4",
+      label: "Schumacher Great Britain 1998",
+      title: "Schumacher — Great Britain 1998"
+    }
+  ];
+
   return (
     <main className="min-h-[60vh]">
       <section className="border-b hairline py-20 sm:py-28">
@@ -10,22 +33,24 @@ export default function VideosPage() {
       <section className="py-16">
         <div className="section-shell">
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            <article className="media-card mx-auto w-full max-w-[380px] overflow-hidden">
-              <video
-                className="aspect-[9/16] w-full bg-black object-cover"
-                controls
-                playsInline
-                preload="metadata"
-                aria-label="Schumacher Great Britain 1998"
-              >
-                <source src="/videos/schumacher-great-britain-1998.mp4" type="video/mp4" />
-                Your browser does not support video playback.
-              </video>
-              <div className="p-4">
-                <p className="text-xs font-black uppercase tracking-[0.22em] text-red-500">Short</p>
-                <h2 className="mt-2 text-lg font-black uppercase text-white">Schumacher — Great Britain 1998</h2>
-              </div>
-            </article>
+            {videos.map((video) => (
+              <article key={video.src} className="media-card mx-auto w-full max-w-[380px] overflow-hidden">
+                <video
+                  className="aspect-[9/16] w-full bg-black object-cover"
+                  controls
+                  playsInline
+                  preload="metadata"
+                  aria-label={video.label}
+                >
+                  <source src={video.src} type="video/mp4" />
+                  Your browser does not support video playback.
+                </video>
+                <div className="p-4">
+                  <p className="text-xs font-black uppercase tracking-[0.22em] text-red-500">Short</p>
+                  <h2 className="mt-2 text-lg font-black uppercase text-white">{video.title}</h2>
+                </div>
+              </article>
+            ))}
           </div>
         </div>
       </section>
