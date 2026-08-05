@@ -1,6 +1,26 @@
 export default function VideosPage() {
   const videos = [
     {
+      src: "/videos/schumacher-great-britain-1998.mp4",
+      label: "Schumacher Great Britain 1998",
+      title: "Schumacher — Great Britain 1998"
+    },
+    {
+      src: "/videos/belgium-2000.mp4",
+      label: "Belgium 2000",
+      title: "Belgium 2000"
+    },
+    {
+      src: "/videos/brazil-2008.mp4",
+      label: "Brazil 2008",
+      title: "Brazil 2008"
+    },
+    {
+      src: "/videos/great-britain-2021.mp4",
+      label: "Great Britain 2021",
+      title: "Great Britain 2021"
+    },
+    {
       src: "/videos/mark-webber-crash-valencia-2010.mp4",
       label: "Mark Webber crash — Valencia 2010",
       title: "Mark Webber Crash — Valencia 2010"
@@ -14,11 +34,6 @@ export default function VideosPage() {
       src: "/videos/canada-2019.mp4",
       label: "Canada 2019",
       title: "Canada 2019"
-    },
-    {
-      src: "/videos/schumacher-great-britain-1998.mp4",
-      label: "Schumacher Great Britain 1998",
-      title: "Schumacher — Great Britain 1998"
     }
   ];
 
