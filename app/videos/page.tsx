@@ -34,21 +34,6 @@ export default function VideosPage() {
       src: "/videos/canada-2019.mp4",
       label: "Canada 2019",
       title: "Canada 2019"
-    },
-    {
-      src: "/videos/schumacher-monaco-2006.mp4",
-      label: "Schumacher Monaco 2006",
-      title: "Schumacher — Monaco 2006"
-    },
-    {
-      src: "/videos/indy-500-2002.mp4",
-      label: "Indy 500 2002",
-      title: "Indy 500 — 2002"
-    },
-    {
-      src: "/videos/raikkonen.mp4",
-      label: "Kimi Raikkonen",
-      title: "Kimi Räikkönen"
     }
   ];
 
