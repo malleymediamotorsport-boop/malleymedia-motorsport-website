@@ -49,31 +49,6 @@ export default function VideosPage() {
       src: "/videos/raikkonen.mp4",
       label: "Kimi Raikkonen",
       title: "Kimi Räikkönen"
-    },
-    {
-      src: "/videos/verstappen-first-win.mp4",
-      label: "Verstappen first win",
-      title: "Verstappen — First Win"
-    },
-    {
-      src: "/videos/leclerc.mp4",
-      label: "Charles Leclerc",
-      title: "Charles Leclerc"
-    },
-    {
-      src: "/videos/indycar-2026.mp4",
-      label: "IndyCar 2026",
-      title: "IndyCar 2026"
-    },
-    {
-      src: "/videos/multi-21.mp4",
-      label: "Multi 21",
-      title: "Multi 21"
-    },
-    {
-      src: "/videos/hamilton-china-2007.mp4",
-      label: "Hamilton China 2007",
-      title: "Hamilton — China 2007"
     }
   ];
 
