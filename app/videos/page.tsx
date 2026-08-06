@@ -1,9 +1,23 @@
+import ChunkedVideo from "./ChunkedVideo";
+
 export default function VideosPage() {
   const videos = [
     {
       src: "/videos/schumacher-great-britain-1998.mp4",
       label: "Schumacher Great Britain 1998",
       title: "Schumacher — Great Britain 1998"
+    },
+    {
+      src: "/videos/schumacher-monaco-2006.mp4",
+      chunks: [
+        "/videos/schumacher-monaco-2006.part-aa",
+        "/videos/schumacher-monaco-2006.part-ab",
+        "/videos/schumacher-monaco-2006.part-ac",
+        "/videos/schumacher-monaco-2006.part-ad",
+        "/videos/schumacher-monaco-2006.part-ae"
+      ],
+      label: "Schumacher Monaco 2006",
+      title: "Schumacher — Monaco 2006"
     },
     {
       src: "/videos/belgium-2000.mp4",
@@ -50,16 +64,20 @@ export default function VideosPage() {
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {videos.map((video) => (
               <article key={video.src} className="media-card mx-auto w-full max-w-[380px] overflow-hidden">
-                <video
-                  className="aspect-[9/16] w-full bg-black object-cover"
-                  controls
-                  playsInline
-                  preload="metadata"
-                  aria-label={video.label}
-                >
-                  <source src={video.src} type="video/mp4" />
-                  Your browser does not support video playback.
-                </video>
+                {video.chunks ? (
+                  <ChunkedVideo chunks={video.chunks} label={video.label} />
+                ) : (
+                  <video
+                    className="aspect-[9/16] w-full bg-black object-cover"
+                    controls
+                    playsInline
+                    preload="metadata"
+                    aria-label={video.label}
+                  >
+                    <source src={video.src} type="video/mp4" />
+                    Your browser does not support video playback.
+                  </video>
+                )}
                 <div className="p-4">
                   <p className="text-xs font-black uppercase tracking-[0.22em] text-red-500">Short</p>
                   <h2 className="mt-2 text-lg font-black uppercase text-white">{video.title}</h2>
