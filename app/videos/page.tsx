@@ -138,10 +138,14 @@ export default function VideosPage() {
     {
       src: "/videos/indianapolis-2004.mp4",
       chunks: [
-        "/videos/indianapolis-2004.part-aa",
-        "/videos/indianapolis-2004.part-ab",
-        "/videos/indianapolis-2004.part-ac",
-        "/videos/indianapolis-2004.part-ad"
+        "/videos/indianapolis-2004.part-00",
+        "/videos/indianapolis-2004.part-01",
+        "/videos/indianapolis-2004.part-02",
+        "/videos/indianapolis-2004.part-03",
+        "/videos/indianapolis-2004.part-04",
+        "/videos/indianapolis-2004.part-05",
+        "/videos/indianapolis-2004.part-06",
+        "/videos/indianapolis-2004.part-07"
       ],
       label: "Indianapolis 2004",
       title: "Indianapolis — 2004"
