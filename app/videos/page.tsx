@@ -175,6 +175,24 @@ export default function VideosPage() {
       title: "Mick Schumacher — Debut"
     },
     {
+      src: "/videos/japan-1989.mp4",
+      chunks: [
+        "/videos/japan-1989.part-00",
+        "/videos/japan-1989.part-01",
+        "/videos/japan-1989.part-02",
+        "/videos/japan-1989.part-03",
+        "/videos/japan-1989.part-04",
+        "/videos/japan-1989.part-05",
+        "/videos/japan-1989.part-06",
+        "/videos/japan-1989.part-07",
+        "/videos/japan-1989.part-08",
+        "/videos/japan-1989.part-09",
+        "/videos/japan-1989.part-10"
+      ],
+      label: "Japan 1989",
+      title: "Japan — 1989"
+    },
+    {
       src: "/videos/belgium-2000.mp4",
       label: "Belgium 2000",
       title: "Belgium 2000"
