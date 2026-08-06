@@ -206,6 +206,30 @@ export default function VideosPage() {
       title: "Alonso vs Schumacher — 130R"
     },
     {
+      src: "/videos/button-canada-2011.mp4",
+      chunks: [
+        "/videos/button-canada-2011.part-00",
+        "/videos/button-canada-2011.part-01",
+        "/videos/button-canada-2011.part-02",
+        "/videos/button-canada-2011.part-03",
+        "/videos/button-canada-2011.part-04",
+        "/videos/button-canada-2011.part-05",
+        "/videos/button-canada-2011.part-06",
+        "/videos/button-canada-2011.part-07",
+        "/videos/button-canada-2011.part-08",
+        "/videos/button-canada-2011.part-09",
+        "/videos/button-canada-2011.part-10",
+        "/videos/button-canada-2011.part-11",
+        "/videos/button-canada-2011.part-12",
+        "/videos/button-canada-2011.part-13",
+        "/videos/button-canada-2011.part-14",
+        "/videos/button-canada-2011.part-15",
+        "/videos/button-canada-2011.part-16"
+      ],
+      label: "Button Canada 2011",
+      title: "Button — Canada 2011"
+    },
+    {
       src: "/videos/belgium-2000.mp4",
       label: "Belgium 2000",
       title: "Belgium 2000"
