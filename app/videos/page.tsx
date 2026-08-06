@@ -289,6 +289,41 @@ export default function VideosPage() {
       title: "Webber vs Alonso — Belgium 2011"
     },
     {
+      src: "/videos/verstappen-hamilton-baku-2021.mp4",
+      chunks: [
+        "/videos/verstappen-hamilton-baku-2021.part-00",
+        "/videos/verstappen-hamilton-baku-2021.part-01",
+        "/videos/verstappen-hamilton-baku-2021.part-02",
+        "/videos/verstappen-hamilton-baku-2021.part-03",
+        "/videos/verstappen-hamilton-baku-2021.part-04",
+        "/videos/verstappen-hamilton-baku-2021.part-05",
+        "/videos/verstappen-hamilton-baku-2021.part-06",
+        "/videos/verstappen-hamilton-baku-2021.part-07",
+        "/videos/verstappen-hamilton-baku-2021.part-08",
+        "/videos/verstappen-hamilton-baku-2021.part-09",
+        "/videos/verstappen-hamilton-baku-2021.part-10",
+        "/videos/verstappen-hamilton-baku-2021.part-11",
+        "/videos/verstappen-hamilton-baku-2021.part-12",
+        "/videos/verstappen-hamilton-baku-2021.part-13",
+        "/videos/verstappen-hamilton-baku-2021.part-14",
+        "/videos/verstappen-hamilton-baku-2021.part-15",
+        "/videos/verstappen-hamilton-baku-2021.part-16",
+        "/videos/verstappen-hamilton-baku-2021.part-17",
+        "/videos/verstappen-hamilton-baku-2021.part-18",
+        "/videos/verstappen-hamilton-baku-2021.part-19",
+        "/videos/verstappen-hamilton-baku-2021.part-20",
+        "/videos/verstappen-hamilton-baku-2021.part-21",
+        "/videos/verstappen-hamilton-baku-2021.part-22",
+        "/videos/verstappen-hamilton-baku-2021.part-23",
+        "/videos/verstappen-hamilton-baku-2021.part-24",
+        "/videos/verstappen-hamilton-baku-2021.part-25",
+        "/videos/verstappen-hamilton-baku-2021.part-26",
+        "/videos/verstappen-hamilton-baku-2021.part-27"
+      ],
+      label: "Verstappen and Hamilton — Baku 2021",
+      title: "Verstappen vs Hamilton — Baku 2021"
+    },
+    {
       src: "/videos/belgium-2000.mp4",
       label: "Belgium 2000",
       title: "Belgium 2000"
