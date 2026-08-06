@@ -56,6 +56,11 @@ export default function VideosPage() {
       title: "Charles Leclerc"
     },
     {
+      src: "/videos/multi-21.mp4",
+      label: "Multi 21",
+      title: "Multi 21"
+    },
+    {
       src: "/videos/belgium-2000.mp4",
       label: "Belgium 2000",
       title: "Belgium 2000"
