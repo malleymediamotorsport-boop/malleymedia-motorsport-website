@@ -20,6 +20,21 @@ export default function VideosPage() {
       title: "Schumacher — Monaco 2006"
     },
     {
+      src: "/videos/indy-500-2002.mp4",
+      chunks: [
+        "/videos/indy-500-2002.part-aa",
+        "/videos/indy-500-2002.part-ab",
+        "/videos/indy-500-2002.part-ac",
+        "/videos/indy-500-2002.part-ad",
+        "/videos/indy-500-2002.part-ae",
+        "/videos/indy-500-2002.part-af",
+        "/videos/indy-500-2002.part-ag",
+        "/videos/indy-500-2002.part-ah"
+      ],
+      label: "Indy 500 2002",
+      title: "Indy 500 — 2002"
+    },
+    {
       src: "/videos/belgium-2000.mp4",
       label: "Belgium 2000",
       title: "Belgium 2000"
