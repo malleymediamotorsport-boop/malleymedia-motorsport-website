@@ -1,3 +1,14 @@
+
+.gitignore
+app/
+next-env.d.ts
+next.config.ts
+package.json
+pnpm-lock.yaml
+pnpm-workspace.yaml
+postcss.config.mjs
+public/
+tsconfig.json
 import ChunkedVideo from "./ChunkedVideo";
 
 export default function VideosPage() {
@@ -52,11 +63,34 @@ export default function VideosPage() {
     },
     {
       src: "/videos/leclerc-new.mp4",
+      chunks: [
+        "/videos/leclerc-new.part-aa",
+        "/videos/leclerc-new.part-ab",
+        "/videos/leclerc-new.part-ac",
+        "/videos/leclerc-new.part-ad",
+        "/videos/leclerc-new.part-ae",
+        "/videos/leclerc-new.part-af"
+      ],
       label: "Charles Leclerc",
       title: "Charles Leclerc"
     },
     {
       src: "/videos/multi-21.mp4",
+      chunks: [
+        "/videos/multi-21.part-aa",
+        "/videos/multi-21.part-ab",
+        "/videos/multi-21.part-ac",
+        "/videos/multi-21.part-ad",
+        "/videos/multi-21.part-ae",
+        "/videos/multi-21.part-af",
+        "/videos/multi-21.part-ag",
+        "/videos/multi-21.part-ah",
+        "/videos/multi-21.part-ai",
+        "/videos/multi-21.part-aj",
+        "/videos/multi-21.part-ak",
+        "/videos/multi-21.part-al",
+        "/videos/multi-21.part-am"
+      ],
       label: "Multi 21",
       title: "Multi 21"
     },
