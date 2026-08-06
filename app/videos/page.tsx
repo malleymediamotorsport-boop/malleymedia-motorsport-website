@@ -136,6 +136,11 @@ export default function VideosPage() {
       title: "Indy 500 — 2024"
     },
     {
+      src: "/videos/indianapolis-2004.mp4",
+      label: "Indianapolis 2004",
+      title: "Indianapolis — 2004"
+    },
+    {
       src: "/videos/belgium-2000.mp4",
       label: "Belgium 2000",
       title: "Belgium 2000"
