@@ -151,6 +151,30 @@ export default function VideosPage() {
       title: "Indianapolis — 2004"
     },
     {
+      src: "/videos/mick-schumacher-debut.mp4",
+      chunks: [
+        "/videos/mick-schumacher-debut.part-00",
+        "/videos/mick-schumacher-debut.part-01",
+        "/videos/mick-schumacher-debut.part-02",
+        "/videos/mick-schumacher-debut.part-03",
+        "/videos/mick-schumacher-debut.part-04",
+        "/videos/mick-schumacher-debut.part-05",
+        "/videos/mick-schumacher-debut.part-06",
+        "/videos/mick-schumacher-debut.part-07",
+        "/videos/mick-schumacher-debut.part-08",
+        "/videos/mick-schumacher-debut.part-09",
+        "/videos/mick-schumacher-debut.part-10",
+        "/videos/mick-schumacher-debut.part-11",
+        "/videos/mick-schumacher-debut.part-12",
+        "/videos/mick-schumacher-debut.part-13",
+        "/videos/mick-schumacher-debut.part-14",
+        "/videos/mick-schumacher-debut.part-15",
+        "/videos/mick-schumacher-debut.part-16"
+      ],
+      label: "Mick Schumacher debut",
+      title: "Mick Schumacher — Debut"
+    },
+    {
       src: "/videos/belgium-2000.mp4",
       label: "Belgium 2000",
       title: "Belgium 2000"
