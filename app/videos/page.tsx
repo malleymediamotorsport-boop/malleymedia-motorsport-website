@@ -230,6 +230,29 @@ export default function VideosPage() {
       title: "Button — Canada 2011"
     },
     {
+      src: "/videos/vettel-hamilton-baku-2017.mp4",
+      chunks: [
+        "/videos/vettel-hamilton-baku-2017.part-00",
+        "/videos/vettel-hamilton-baku-2017.part-01",
+        "/videos/vettel-hamilton-baku-2017.part-02",
+        "/videos/vettel-hamilton-baku-2017.part-03",
+        "/videos/vettel-hamilton-baku-2017.part-04",
+        "/videos/vettel-hamilton-baku-2017.part-05",
+        "/videos/vettel-hamilton-baku-2017.part-06",
+        "/videos/vettel-hamilton-baku-2017.part-07",
+        "/videos/vettel-hamilton-baku-2017.part-08",
+        "/videos/vettel-hamilton-baku-2017.part-09",
+        "/videos/vettel-hamilton-baku-2017.part-10",
+        "/videos/vettel-hamilton-baku-2017.part-11",
+        "/videos/vettel-hamilton-baku-2017.part-12",
+        "/videos/vettel-hamilton-baku-2017.part-13",
+        "/videos/vettel-hamilton-baku-2017.part-14",
+        "/videos/vettel-hamilton-baku-2017.part-15"
+      ],
+      label: "Vettel and Hamilton — Baku 2017",
+      title: "Vettel vs Hamilton — Baku 2017"
+    },
+    {
       src: "/videos/belgium-2000.mp4",
       label: "Belgium 2000",
       title: "Belgium 2000"
