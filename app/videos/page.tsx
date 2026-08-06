@@ -51,28 +51,6 @@ export default function VideosPage() {
       title: "Kimi Räikkönen"
     },
     {
-      src: "/videos/verstappen-first-win.mp4",
-      chunks: [
-        "/videos/verstappen-first-win.part-aa",
-        "/videos/verstappen-first-win.part-ab",
-        "/videos/verstappen-first-win.part-ac",
-        "/videos/verstappen-first-win.part-ad",
-        "/videos/verstappen-first-win.part-ae",
-        "/videos/verstappen-first-win.part-af",
-        "/videos/verstappen-first-win.part-ag",
-        "/videos/verstappen-first-win.part-ah",
-        "/videos/verstappen-first-win.part-ai",
-        "/videos/verstappen-first-win.part-aj",
-        "/videos/verstappen-first-win.part-ak",
-        "/videos/verstappen-first-win.part-al",
-        "/videos/verstappen-first-win.part-am",
-        "/videos/verstappen-first-win.part-an",
-        "/videos/verstappen-first-win.part-ao"
-      ],
-      label: "Verstappen First Win",
-      title: "Verstappen — First Win"
-    },
-    {
       src: "/videos/belgium-2000.mp4",
       label: "Belgium 2000",
       title: "Belgium 2000"
