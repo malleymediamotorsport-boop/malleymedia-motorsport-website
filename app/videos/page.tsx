@@ -1,14 +1,3 @@
-
-.gitignore
-app/
-next-env.d.ts
-next.config.ts
-package.json
-pnpm-lock.yaml
-pnpm-workspace.yaml
-postcss.config.mjs
-public/
-tsconfig.json
 import ChunkedVideo from "./ChunkedVideo";
 
 export default function VideosPage() {
