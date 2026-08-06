@@ -253,6 +253,42 @@ export default function VideosPage() {
       title: "Vettel vs Hamilton — Baku 2017"
     },
     {
+      src: "/videos/webber-alonso-belgium-2011.mp4",
+      chunks: [
+        "/videos/webber-alonso-belgium-2011.part-00",
+        "/videos/webber-alonso-belgium-2011.part-01",
+        "/videos/webber-alonso-belgium-2011.part-02",
+        "/videos/webber-alonso-belgium-2011.part-03",
+        "/videos/webber-alonso-belgium-2011.part-04",
+        "/videos/webber-alonso-belgium-2011.part-05",
+        "/videos/webber-alonso-belgium-2011.part-06",
+        "/videos/webber-alonso-belgium-2011.part-07",
+        "/videos/webber-alonso-belgium-2011.part-08",
+        "/videos/webber-alonso-belgium-2011.part-09",
+        "/videos/webber-alonso-belgium-2011.part-10",
+        "/videos/webber-alonso-belgium-2011.part-11",
+        "/videos/webber-alonso-belgium-2011.part-12",
+        "/videos/webber-alonso-belgium-2011.part-13",
+        "/videos/webber-alonso-belgium-2011.part-14",
+        "/videos/webber-alonso-belgium-2011.part-15",
+        "/videos/webber-alonso-belgium-2011.part-16",
+        "/videos/webber-alonso-belgium-2011.part-17",
+        "/videos/webber-alonso-belgium-2011.part-18",
+        "/videos/webber-alonso-belgium-2011.part-19",
+        "/videos/webber-alonso-belgium-2011.part-20",
+        "/videos/webber-alonso-belgium-2011.part-21",
+        "/videos/webber-alonso-belgium-2011.part-22",
+        "/videos/webber-alonso-belgium-2011.part-23",
+        "/videos/webber-alonso-belgium-2011.part-24",
+        "/videos/webber-alonso-belgium-2011.part-25",
+        "/videos/webber-alonso-belgium-2011.part-26",
+        "/videos/webber-alonso-belgium-2011.part-27",
+        "/videos/webber-alonso-belgium-2011.part-28"
+      ],
+      label: "Webber and Alonso — Belgium 2011",
+      title: "Webber vs Alonso — Belgium 2011"
+    },
+    {
       src: "/videos/belgium-2000.mp4",
       label: "Belgium 2000",
       title: "Belgium 2000"
