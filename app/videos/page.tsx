@@ -84,6 +84,29 @@ export default function VideosPage() {
       title: "Multi 21"
     },
     {
+      src: "/videos/hamilton-china-2007.mp4",
+      chunks: [
+        "/videos/hamilton-china-2007.part-00",
+        "/videos/hamilton-china-2007.part-01",
+        "/videos/hamilton-china-2007.part-02",
+        "/videos/hamilton-china-2007.part-03",
+        "/videos/hamilton-china-2007.part-04",
+        "/videos/hamilton-china-2007.part-05",
+        "/videos/hamilton-china-2007.part-06",
+        "/videos/hamilton-china-2007.part-07",
+        "/videos/hamilton-china-2007.part-08",
+        "/videos/hamilton-china-2007.part-09",
+        "/videos/hamilton-china-2007.part-10",
+        "/videos/hamilton-china-2007.part-11",
+        "/videos/hamilton-china-2007.part-12",
+        "/videos/hamilton-china-2007.part-13",
+        "/videos/hamilton-china-2007.part-14",
+        "/videos/hamilton-china-2007.part-15"
+      ],
+      label: "Hamilton China 2007",
+      title: "Hamilton — China 2007"
+    },
+    {
       src: "/videos/belgium-2000.mp4",
       label: "Belgium 2000",
       title: "Belgium 2000"
