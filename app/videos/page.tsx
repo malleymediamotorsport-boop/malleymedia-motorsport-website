@@ -193,6 +193,19 @@ export default function VideosPage() {
       title: "Japan — 1989"
     },
     {
+      src: "/videos/alonso-schumacher-130r.mp4",
+      chunks: [
+        "/videos/alonso-schumacher-130r.part-00",
+        "/videos/alonso-schumacher-130r.part-01",
+        "/videos/alonso-schumacher-130r.part-02",
+        "/videos/alonso-schumacher-130r.part-03",
+        "/videos/alonso-schumacher-130r.part-04",
+        "/videos/alonso-schumacher-130r.part-05"
+      ],
+      label: "Alonso and Schumacher at 130R",
+      title: "Alonso vs Schumacher — 130R"
+    },
+    {
       src: "/videos/belgium-2000.mp4",
       label: "Belgium 2000",
       title: "Belgium 2000"
