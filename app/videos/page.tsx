@@ -108,6 +108,34 @@ export default function VideosPage() {
       title: "Hamilton — China 2007"
     },
     {
+      src: "/videos/indy-500-2024.mp4",
+      chunks: [
+        "/videos/indy-500-2024.part-00",
+        "/videos/indy-500-2024.part-01",
+        "/videos/indy-500-2024.part-02",
+        "/videos/indy-500-2024.part-03",
+        "/videos/indy-500-2024.part-04",
+        "/videos/indy-500-2024.part-05",
+        "/videos/indy-500-2024.part-06",
+        "/videos/indy-500-2024.part-07",
+        "/videos/indy-500-2024.part-08",
+        "/videos/indy-500-2024.part-09",
+        "/videos/indy-500-2024.part-10",
+        "/videos/indy-500-2024.part-11",
+        "/videos/indy-500-2024.part-12",
+        "/videos/indy-500-2024.part-13",
+        "/videos/indy-500-2024.part-14",
+        "/videos/indy-500-2024.part-15",
+        "/videos/indy-500-2024.part-16",
+        "/videos/indy-500-2024.part-17",
+        "/videos/indy-500-2024.part-18",
+        "/videos/indy-500-2024.part-19",
+        "/videos/indy-500-2024.part-20"
+      ],
+      label: "Indy 500 2024",
+      title: "Indy 500 — 2024"
+    },
+    {
       src: "/videos/belgium-2000.mp4",
       label: "Belgium 2000",
       title: "Belgium 2000"
