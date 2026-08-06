@@ -51,6 +51,11 @@ export default function VideosPage() {
       title: "Kimi Räikkönen"
     },
     {
+      src: "/videos/leclerc-new.mp4",
+      label: "Charles Leclerc",
+      title: "Charles Leclerc"
+    },
+    {
       src: "/videos/belgium-2000.mp4",
       label: "Belgium 2000",
       title: "Belgium 2000"
