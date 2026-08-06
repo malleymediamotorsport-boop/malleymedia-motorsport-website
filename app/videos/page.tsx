@@ -35,6 +35,22 @@ export default function VideosPage() {
       title: "Indy 500 — 2002"
     },
     {
+      src: "/videos/raikkonen.mp4",
+      chunks: [
+        "/videos/raikkonen.part-aa",
+        "/videos/raikkonen.part-ab",
+        "/videos/raikkonen.part-ac",
+        "/videos/raikkonen.part-ad",
+        "/videos/raikkonen.part-ae",
+        "/videos/raikkonen.part-af",
+        "/videos/raikkonen.part-ag",
+        "/videos/raikkonen.part-ah",
+        "/videos/raikkonen.part-ai"
+      ],
+      label: "Kimi Räikkönen",
+      title: "Kimi Räikkönen"
+    },
+    {
       src: "/videos/belgium-2000.mp4",
       label: "Belgium 2000",
       title: "Belgium 2000"
