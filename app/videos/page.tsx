@@ -83,6 +83,7 @@ export default function VideosPage() {
       label: "Multi 21",
       title: "Multi 21"
     },
+    // Hamilton's 2007 China Grand Prix retirement.
     {
       src: "/videos/hamilton-china-2007.mp4",
       chunks: [
