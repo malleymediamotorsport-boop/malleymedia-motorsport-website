@@ -325,6 +325,17 @@ export default function VideosPage() {
     },
     {
       src: "/videos/singapore-2008.mp4",
+      chunks: [
+        "/videos/singapore-2008.part-00",
+        "/videos/singapore-2008.part-01",
+        "/videos/singapore-2008.part-02",
+        "/videos/singapore-2008.part-03",
+        "/videos/singapore-2008.part-04",
+        "/videos/singapore-2008.part-05",
+        "/videos/singapore-2008.part-06",
+        "/videos/singapore-2008.part-07",
+        "/videos/singapore-2008.part-08"
+      ],
       label: "Singapore 2008",
       title: "Singapore 2008"
     },
