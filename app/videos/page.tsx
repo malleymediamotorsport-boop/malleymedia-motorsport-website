@@ -367,6 +367,24 @@ export default function VideosPage() {
       title: "Hamilton — Malaysia 2016"
     },
     {
+      src: "/videos/hamilton-wrong-pit-malaysia-2013.mp4",
+      chunks: [
+        "/videos/hamilton-wrong-pit-malaysia-2013.part-00",
+        "/videos/hamilton-wrong-pit-malaysia-2013.part-01",
+        "/videos/hamilton-wrong-pit-malaysia-2013.part-02",
+        "/videos/hamilton-wrong-pit-malaysia-2013.part-03",
+        "/videos/hamilton-wrong-pit-malaysia-2013.part-04",
+        "/videos/hamilton-wrong-pit-malaysia-2013.part-05",
+        "/videos/hamilton-wrong-pit-malaysia-2013.part-06",
+        "/videos/hamilton-wrong-pit-malaysia-2013.part-07",
+        "/videos/hamilton-wrong-pit-malaysia-2013.part-08",
+        "/videos/hamilton-wrong-pit-malaysia-2013.part-09",
+        "/videos/hamilton-wrong-pit-malaysia-2013.part-10"
+      ],
+      label: "Hamilton wrong pit Malaysia 2013",
+      title: "Hamilton Wrong Pit — Malaysia 2013"
+    },
+    {
       src: "/videos/belgium-2000.mp4",
       label: "Belgium 2000",
       title: "Belgium 2000"
