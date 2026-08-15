@@ -324,6 +324,11 @@ export default function VideosPage() {
       title: "Verstappen vs Hamilton — Baku 2021"
     },
     {
+      src: "/videos/singapore-2008.mp4",
+      label: "Singapore 2008",
+      title: "Singapore 2008"
+    },
+    {
       src: "/videos/belgium-2000.mp4",
       label: "Belgium 2000",
       title: "Belgium 2000"
