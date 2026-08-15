@@ -385,6 +385,25 @@ export default function VideosPage() {
       title: "Hamilton Wrong Pit — Malaysia 2013"
     },
     {
+      src: "/videos/verstappen-nurburgring-gt3.mp4",
+      chunks: [
+        "/videos/verstappen-nurburgring-gt3.part-00",
+        "/videos/verstappen-nurburgring-gt3.part-01",
+        "/videos/verstappen-nurburgring-gt3.part-02",
+        "/videos/verstappen-nurburgring-gt3.part-03",
+        "/videos/verstappen-nurburgring-gt3.part-04",
+        "/videos/verstappen-nurburgring-gt3.part-05",
+        "/videos/verstappen-nurburgring-gt3.part-06",
+        "/videos/verstappen-nurburgring-gt3.part-07",
+        "/videos/verstappen-nurburgring-gt3.part-08",
+        "/videos/verstappen-nurburgring-gt3.part-09",
+        "/videos/verstappen-nurburgring-gt3.part-10",
+        "/videos/verstappen-nurburgring-gt3.part-11"
+      ],
+      label: "Verstappen Nürburgring GT3",
+      title: "Verstappen — Nürburgring GT3"
+    },
+    {
       src: "/videos/belgium-2000.mp4",
       label: "Belgium 2000",
       title: "Belgium 2000"
