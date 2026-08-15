@@ -340,6 +340,33 @@ export default function VideosPage() {
       title: "Singapore 2008"
     },
     {
+      src: "/videos/hamilton-malaysia-2016.mp4",
+      chunks: [
+        "/videos/hamilton-malaysia-2016.part-00",
+        "/videos/hamilton-malaysia-2016.part-01",
+        "/videos/hamilton-malaysia-2016.part-02",
+        "/videos/hamilton-malaysia-2016.part-03",
+        "/videos/hamilton-malaysia-2016.part-04",
+        "/videos/hamilton-malaysia-2016.part-05",
+        "/videos/hamilton-malaysia-2016.part-06",
+        "/videos/hamilton-malaysia-2016.part-07",
+        "/videos/hamilton-malaysia-2016.part-08",
+        "/videos/hamilton-malaysia-2016.part-09",
+        "/videos/hamilton-malaysia-2016.part-10",
+        "/videos/hamilton-malaysia-2016.part-11",
+        "/videos/hamilton-malaysia-2016.part-12",
+        "/videos/hamilton-malaysia-2016.part-13",
+        "/videos/hamilton-malaysia-2016.part-14",
+        "/videos/hamilton-malaysia-2016.part-15",
+        "/videos/hamilton-malaysia-2016.part-16",
+        "/videos/hamilton-malaysia-2016.part-17",
+        "/videos/hamilton-malaysia-2016.part-18",
+        "/videos/hamilton-malaysia-2016.part-19"
+      ],
+      label: "Hamilton Malaysia 2016",
+      title: "Hamilton — Malaysia 2016"
+    },
+    {
       src: "/videos/belgium-2000.mp4",
       label: "Belgium 2000",
       title: "Belgium 2000"
